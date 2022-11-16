@@ -1,0 +1,8 @@
+cisco Cisco
+กำหนด static ip  และ  ip controller ตัองรู้ชื่อ  Controller ด้วย
+capwap ap ip 192.168.5.72 255.255.0.0 192.168.111.11
+capwap ap primary-base KleangHospital 192.168.5.10
+
+
+show capwap ip config
+#show ip interface brief
