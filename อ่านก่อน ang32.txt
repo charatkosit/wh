@@ -1,0 +1,63 @@
+       
+        MenuItemComponent,
+        SidebarSearchComponent
+        BlankComponent,
+        ProfileComponent,
+        DashboardComponent,
+        MainMenuComponent,
+            SubMenuComponent,
+        StockComponent
+        Stock-Edit
+        Stock-
+
+
+   LoginComponent,
+   RegisterComponent
+   ForgotPasswordComponent,
+   RecoverPasswordComponent,
+   MainComponent,   
+      HeaderComponent,
+          LanguageComponent
+          MessagesComponent,
+          NotificationsComponent,
+          UserComponent,
+      ControlSidebarComponent,
+      MenuSidebarComponent,
+      FooterComponent,
+
+ Components/
+    Page
+    Authen
+    Content
+
+ng g c components/authen/register --skip-tests
+ng g c components/authen/login --skip-tests
+ng g c components/authen/forgot-password --skip-tests
+ng g c components/authen/recover-password --skip-tests
+
+ng g c components/pages/blank --skip-tests
+ng g c components/pages/profile --skip-tests
+ng g c components/pages/dashboard --skip-tests
+ng g c components/pages/header --skip-tests
+ng g c components/pages/language --skip-tests
+ng g c components/pages/messages --skip-tests
+ng g c components/pages/notifications --skip-tests
+ng g c components/pages/user --skip-tests
+ng g c components/pages/side-menu --skip-tests
+ng g c components/pages/footer --skip-tests
+ng g c components/pages/control-sidebar --skip-tests
+
+ng g c components/contents/stock --skip-tests
+ng g c components/contents/stock/stock-edit --flat --skip-tests
+ng g c components/contents/stock/stock-delete --flat --skip-tests
+
+ng g c components/contents/invoice --skip-tests
+ng g c components/contents/invoice/invoice-edit --flat --skip-tests
+ng g c components/contents/invoice/invoice-delete --flat --skip-tests
+
+ng g c components/contents/delivery --skip-tests
+ng g c components/contents/delivery/delivery-edit --flat --skip-tests
+ng g c components/contents/delivery/delivery-delete --flat --skip-tests
+
+ng g s services/app --skip-tests
+ng g s services/api --skip-tests
